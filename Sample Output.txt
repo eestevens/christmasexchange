@@ -1,0 +1,16 @@
+Karen,bacpacmac@earthlink.net:Mike
+Joe,jrintelman@sbcglobal.net:Lynn
+Adam,steve660@umn.edu:Andy
+Sue,suestevens51@gmail.com:Jon
+Lynn,lfraaza@wi.rr.com:Adam
+Erik,eedwardstevens@gmail.com:Karen
+Andy,astevens1819@gmail.com:Erik
+Mike,michael.stevens85@gmail.com:Peter
+Jess,jessica.v.stevens@gmail.com:Drew
+Peter,peterfraaza27@gmail.com:Joe
+Bill,bstevens@wi.rr.com:Bruce
+Jon,jonfraaza@gmail.com:Jen
+Bruce,brucestevens1@me.com:Bill
+Barb Stollenwerk,nphikers@earthlink.net:Sue
+Jen,jlsdds@gmail.com:Barb Stollenwerk
+Drew,drew.wallsworth@gmail.com:Jess
