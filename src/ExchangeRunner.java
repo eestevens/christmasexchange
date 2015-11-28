@@ -9,10 +9,10 @@ import view.ExchangeFactory;
 public class ExchangeRunner {
 	
 	public static void main(String[] args) {
-		run();
+		run(true);
 	}
 	
-	public static void run() {
+	public static void run(boolean testMode) {
 		System.out.println("Starting...");
 		ExchangeFactory factory = new ExchangeFactory();
 		List<Combo> combos = factory.run();
@@ -24,7 +24,7 @@ public class ExchangeRunner {
 		
 		for(Email email : emails) {
 			System.out.println("Sending Email to " + email.toAddress);
-			email.sendEmail();
+			email.sendEmail(testMode);
 		}
 		System.out.println("Finished");
 	}

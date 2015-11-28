@@ -11,7 +11,7 @@ public class SendEmail
 	private static EmailServer server;
 
 	public static void sendEmail(String toEmailAddress, String toName,
-			String subject, String msgBody)  {
+			String subject, String msgBody, boolean testMode)  {
 
 		server = new EmailServer();
 
@@ -19,8 +19,13 @@ public class SendEmail
 		try {
 			Message msg = new MimeMessage(server.getSession());
 			msg.setFrom(new InternetAddress(server.username, server.name));
+			if(testMode) {
+				msg.addRecipient(Message.RecipientType.TO,
+						new InternetAddress("eedwardstevens@gmail.com", toName));
+			} else {
 			msg.addRecipient(Message.RecipientType.TO,
 					new InternetAddress(toEmailAddress, toName));
+			}
 			msg.setSubject(subject);
 			msg.setText(msgBody);
 			Transport.send(msg);
