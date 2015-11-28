@@ -7,8 +7,8 @@ import javax.mail.Session;
 
 public class EmailServer {
 	
-	public final String username = "eedwardstevens@gmail.com";
-	public final String password = "2Runners";
+	public final String username = "EMAILUSERNAME";
+	public final String password = "EMAILPASSWORD";
 	public final String name = "Erik";
 	public Properties properties;
 	
